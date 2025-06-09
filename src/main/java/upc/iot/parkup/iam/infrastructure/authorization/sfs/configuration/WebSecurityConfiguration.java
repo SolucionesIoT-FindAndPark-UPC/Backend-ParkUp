@@ -21,10 +21,14 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.cors.CorsConfiguration;
 
 import java.util.List;
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+
+>>>>>>> Stashed changes
 @Configuration
 @EnableMethodSecurity
 public class WebSecurityConfiguration {

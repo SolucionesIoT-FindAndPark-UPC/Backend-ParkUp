@@ -9,11 +9,14 @@ import upc.iot.parkup.iam.infrastructure.persistence.jpa.repositories.RoleReposi
 
 import java.util.Arrays;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
 
+=======
+>>>>>>> Stashed changes
 @Service
 public class RoleCommandServiceImpl implements RoleCommandService {
     private final RoleRepository roleRepository;

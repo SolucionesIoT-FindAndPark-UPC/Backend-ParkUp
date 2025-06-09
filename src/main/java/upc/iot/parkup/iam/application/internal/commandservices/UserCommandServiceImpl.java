@@ -20,12 +20,15 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
 
 
+=======
+>>>>>>> Stashed changes
 @Service
 public class UserCommandServiceImpl implements UserCommandService {
 

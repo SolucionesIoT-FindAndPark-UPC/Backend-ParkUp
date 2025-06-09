@@ -8,10 +8,14 @@ import io.swagger.v3.oas.models.security.SecurityRequirement;
 import io.swagger.v3.oas.models.security.SecurityScheme;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+
+>>>>>>> Stashed changes
 
 @Configuration
 public class OpenApiConfiguration {

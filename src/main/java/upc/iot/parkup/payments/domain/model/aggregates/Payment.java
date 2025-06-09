@@ -7,10 +7,14 @@ import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;
 import upc.iot.parkup.payments.domain.model.entities.CreditCard;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+
+>>>>>>> Stashed changes
 @Entity
 public class Payment {
     @Id

@@ -8,10 +8,14 @@ import upc.iot.parkup.payments.domain.services.PaymentCommandService;
 import upc.iot.parkup.payments.infrastructure.persistence.jpa.repositories.CreditCardRepository;
 import upc.iot.parkup.payments.infrastructure.persistence.jpa.repositories.PaymentRepository;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+
+>>>>>>> Stashed changes
 @Service
 public class PaymentCommandServiceImpl implements PaymentCommandService {
 

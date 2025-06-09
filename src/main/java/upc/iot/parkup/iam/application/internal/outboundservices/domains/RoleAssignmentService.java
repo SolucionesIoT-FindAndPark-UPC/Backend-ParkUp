@@ -6,10 +6,13 @@ import upc.iot.parkup.iam.infrastructure.persistence.jpa.repositories.AllowedDom
 import java.util.HashSet;
 import java.util.Set;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+>>>>>>> Stashed changes
 @Service
 public class RoleAssignmentService {
     private final AllowedDomainRepository allowedDomainRepository;

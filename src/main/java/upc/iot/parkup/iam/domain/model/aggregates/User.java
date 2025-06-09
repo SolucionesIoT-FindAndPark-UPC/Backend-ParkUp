@@ -11,10 +11,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+>>>>>>> Stashed changes
 @Entity
 public class User extends AuditableAbstractAggregateRoot<User> {
 

@@ -11,10 +11,13 @@ import upc.iot.parkup.iam.infrastructure.persistence.jpa.repositories.UserReposi
 import java.util.List;
 import java.util.Optional;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+>>>>>>> Stashed changes
 @Service
 public class UserQueryServiceImpl implements UserQueryService {
     private final UserRepository userRepository;

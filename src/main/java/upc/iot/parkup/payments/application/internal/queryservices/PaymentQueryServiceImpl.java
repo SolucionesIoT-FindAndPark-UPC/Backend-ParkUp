@@ -8,10 +8,14 @@ import upc.iot.parkup.payments.infrastructure.persistence.jpa.repositories.Payme
 
 import java.util.List;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+
+>>>>>>> Stashed changes
 @Service
 public class PaymentQueryServiceImpl implements PaymentQueryService {
 

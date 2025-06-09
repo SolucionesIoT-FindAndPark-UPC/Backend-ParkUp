@@ -7,10 +7,14 @@ import upc.iot.parkup.iam.domain.model.valueobjects.Roles;
 
 import java.util.Optional;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+
+>>>>>>> Stashed changes
 @Repository
 public interface RoleRepository extends JpaRepository<Role, Long> {
     Optional<Role> findByName(Roles name);

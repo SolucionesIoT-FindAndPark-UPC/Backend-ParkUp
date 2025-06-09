@@ -18,10 +18,14 @@ import upc.iot.parkup.iam.interfaces.rest.transform.SignInCommandFromResourceAss
 import upc.iot.parkup.iam.interfaces.rest.transform.SignUpCommandFromResourceAssembler;
 import upc.iot.parkup.iam.interfaces.rest.transform.UserResourceFromEntityAssembler;
 
+<<<<<<< Updated upstream
 /**
  * @author Ariana Vargas Revollé - U20221a928
  * @version 1.0
  */
+=======
+
+>>>>>>> Stashed changes
 
 @RestController
 @RequestMapping(value = "/api/v1/authentication", produces = MediaType.APPLICATION_JSON_VALUE)
