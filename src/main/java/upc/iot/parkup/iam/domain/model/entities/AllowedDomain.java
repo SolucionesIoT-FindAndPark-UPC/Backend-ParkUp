@@ -2,13 +2,7 @@ package upc.iot.parkup.iam.domain.model.entities;
 
 import jakarta.persistence.*;
 
-<<<<<<< Updated upstream
-/**
- * @author Ariana Vargas Revollé - U20221a928
- * @version 1.0
- */
-=======
->>>>>>> Stashed changes
+
 @Entity
 public class AllowedDomain {
     @Id

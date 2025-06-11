@@ -11,14 +11,6 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-<<<<<<< Updated upstream
-/**
- * @author Ariana Vargas Revollé - U20221a928
- * @version 1.0
- */
-=======
-
->>>>>>> Stashed changes
 @EqualsAndHashCode
 public class UserDetailsImpl implements UserDetails {
 

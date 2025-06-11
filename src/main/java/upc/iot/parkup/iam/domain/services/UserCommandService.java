@@ -7,13 +7,6 @@ import upc.iot.parkup.iam.domain.model.commands.SignUpCommand;
 
 import java.util.Optional;
 
-<<<<<<< Updated upstream
-/**
- * @author Ariana Vargas Revollé - U20221a928
- * @version 1.0
- */
-=======
->>>>>>> Stashed changes
 public interface UserCommandService {
     Optional<User> handle(SignUpCommand command);
     Optional<ImmutablePair<User, String>> handle(SignInCommand command);

@@ -11,14 +11,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
-<<<<<<< Updated upstream
-/**
- * @author Ariana Vargas Revollé - U20221a928
- * @version 1.0
- */
-=======
 
->>>>>>> Stashed changes
 
 @Component
 public class UnauthorizedRequestHandlerEntryPoint implements AuthenticationEntryPoint {

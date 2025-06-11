@@ -10,13 +10,7 @@ import upc.iot.parkup.iam.domain.services.RoleCommandService;
 
 import java.sql.Timestamp;
 
-<<<<<<< Updated upstream
-/**
- * @author Ariana Vargas Revollé - U20221a928
- * @version 1.0
- */
-=======
->>>>>>> Stashed changes
+
 @Service
 public class ApplicationReadyEventHandler {
     private final Logger LOGGER = LoggerFactory.getLogger(ApplicationReadyEventHandler.class);

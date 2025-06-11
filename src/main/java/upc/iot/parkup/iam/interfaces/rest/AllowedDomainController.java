@@ -7,14 +7,7 @@ import upc.iot.parkup.iam.infrastructure.persistence.jpa.repositories.AllowedDom
 
 import java.util.List;
 
-<<<<<<< Updated upstream
-/**
- * @author Ariana Vargas Revollé - U20221a928
- * @version 1.0
- */
-=======
 
->>>>>>> Stashed changes
 @RestController
 @RequestMapping("/api/admin/domains")
 @Tag(name = "Domains", description = "Domain Management Endpoints")

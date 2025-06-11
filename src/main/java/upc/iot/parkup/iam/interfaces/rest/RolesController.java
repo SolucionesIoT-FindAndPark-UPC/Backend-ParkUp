@@ -11,14 +11,7 @@ import upc.iot.parkup.iam.interfaces.rest.transform.RoleResourceFromEntityAssemb
 
 import java.util.List;
 
-<<<<<<< Updated upstream
-/**
- * @author Ariana Vargas Revollé - U20221a928
- * @version 1.0
- */
-=======
 
->>>>>>> Stashed changes
 @RestController
 @RequestMapping(value = "/api/v1/roles", produces = MediaType.APPLICATION_JSON_VALUE)
 @Tag(name = "Roles", description = "Role Management Endpoints")

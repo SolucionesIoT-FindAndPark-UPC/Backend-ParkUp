@@ -7,14 +7,7 @@ import org.springframework.stereotype.Service;
 import upc.iot.parkup.iam.infrastructure.authorization.sfs.model.UserDetailsImpl;
 import upc.iot.parkup.iam.infrastructure.persistence.jpa.repositories.UserRepository;
 
-<<<<<<< Updated upstream
-/**
- * @author Ariana Vargas Revollé - U20221a928
- * @version 1.0
- */
-=======
 
->>>>>>> Stashed changes
 @Service(value = "defaultUserDetailsService")
 public class UserDetailsServiceImpl implements UserDetailsService {
 
