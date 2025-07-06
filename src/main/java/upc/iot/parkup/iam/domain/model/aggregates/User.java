@@ -3,12 +3,10 @@ package upc.iot.parkup.iam.domain.model.aggregates;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-import lombok.Getter;
 import upc.iot.parkup.iam.domain.model.entities.Role;
 import upc.iot.parkup.shared.domain.model.aggregates.AuditableAbstractAggregateRoot;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 
