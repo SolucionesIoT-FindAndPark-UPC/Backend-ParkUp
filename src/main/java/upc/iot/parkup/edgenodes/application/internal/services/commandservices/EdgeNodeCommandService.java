@@ -4,7 +4,9 @@ import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 import upc.iot.parkup.edgenodes.domain.model.aggregates.EdgeNode;
 import upc.iot.parkup.edgenodes.domain.model.commands.CreateEdgeNodeCommand;
+import upc.iot.parkup.edgenodes.domain.model.commands.MakeEdgeNodeRequestCommand;
 import upc.iot.parkup.edgenodes.domain.model.commands.UpdateEdgeNodeCommand;
+import upc.iot.parkup.edgenodes.domain.services.EdgeNodeRequestService;
 import upc.iot.parkup.edgenodes.infrastructure.persistence.repositories.EdgeNodeRepository;
 
 @Service
@@ -12,9 +14,12 @@ import upc.iot.parkup.edgenodes.infrastructure.persistence.repositories.EdgeNode
 public class EdgeNodeCommandService {
 
     private final EdgeNodeRepository edgeNodeRepository;
+    private final EdgeNodeRequestService edgeNodeRequestService;
 
-    public EdgeNodeCommandService(EdgeNodeRepository edgeNodeRepository) {
+    public EdgeNodeCommandService(EdgeNodeRepository edgeNodeRepository,
+                                  EdgeNodeRequestService edgeNodeRequestService) {
         this.edgeNodeRepository = edgeNodeRepository;
+        this.edgeNodeRequestService = edgeNodeRequestService;
     }
 
     public EdgeNode handle(CreateEdgeNodeCommand command) {
@@ -29,5 +34,8 @@ public class EdgeNodeCommandService {
         existing.updateUrlAndPort(command.url(), command.port());
         return edgeNodeRepository.save(existing);
     }
-}
 
+    public String handle(MakeEdgeNodeRequestCommand command) {
+        return edgeNodeRequestService.makeRequest(command);
+    }
+}
